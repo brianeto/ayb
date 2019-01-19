@@ -43,6 +43,9 @@ footer {
 .grey-bg {
     background: #f8f8f8;
 }
+.red-bg {
+    background:#c82222
+}
 /*MARGINS AND PADDINGS*/
 .mt-6 {
     margin-top: 6rem;
@@ -171,6 +174,33 @@ h4.hero-bg-green-text {
 	left: 0;
 	z-index: 1;
 }
+/*GRACIAS PAGINA*/
+/*NAV*/
+.nav {
+    margin-left: 10rem;
+    height: 4rem;
+}
+.p-nav {
+    margin-left: 4.5rem;
+    font-size: 14px;
+    margin-top: 1.3rem;
+}
+/*icons*/
+.nav-icon {
+    padding: 0 0.5em;
+}
+/*logo*/
+.logo-nav {
+    position: absolute;
+    left: 6rem;
+    top: 1.5rem;
+}
+/*greetings*/
+.greetings {
+    margin-top: 10%;
+    overflow: hidden;   
+}
+
 /*MEDIA QUERIES*/
 /*MOBILE*/
 @media (max-width: 575px) {
@@ -198,6 +228,26 @@ h4.hero-bg-green-text {
     }
     .button-width-25 {
         width: 100%;
+    }
+    /*Gracias pagina*/
+    .greetings {
+        text-align: center;
+        height: 600px;
+        margin-top: 8em;
+    }
+    .nav {
+        height: auto;
+        margin-left: -17%;
+    }
+    .logo-nav {
+        right: 6rem;
+        top: 13rem;
+    }
+    .p-nav {
+        margin-top: 0.5rem;
+    }
+    .sitio-web-button {
+        width: 100% !important;
     }
     
 }
@@ -227,5 +277,16 @@ h4.hero-bg-green-text {
     }
     .button-width-25 {
         width: 100%;
+    }
+    /*gracias page*/
+    .nav {
+        height: 11rem;
+    }
+}
+/*LARGER TABLET*/
+@media only screen and (max-width: 1366px) and (min-width: 1024px) {
+    /*gracias page*/
+    .nav {
+        height: 8rem;
     }
 }
